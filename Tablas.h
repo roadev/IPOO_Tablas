@@ -1,9 +1,9 @@
 /* Autor: Hecho por Juan David Roa Valencia
  * Fecha de creación: 23/09/14
- * Versión: 1.0
- * 
+ * Versión: 1.0.1
+ *
  * Nombre de la Clase: Tablas.h
- * Responsabilidad: 
+ * Responsabilidad:
  * Colaboración: Jhonatan David Vanegas
 
  */
@@ -16,17 +16,15 @@ using namespace std;
 #define	TABLAS_H
 
 class Tablas {
-public:
+  public:
     Tablas();
     ~Tablas();
     char calcularTablas();
     char calcularTablasParesImpares();
     void ingresarSizeTabla(int s);
-    
-    
-private:
+
+  private:
     int size;
 };
 
 #endif	/* TABLAS_H */
-
